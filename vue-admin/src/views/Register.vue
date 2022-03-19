@@ -15,7 +15,6 @@
 
 <script>
 import axios from "axios";
-import env from "../../env";
 
 export default {
     name: "Register",
@@ -30,7 +29,7 @@ export default {
     },
     methods: {
         async submit() {
-            await axios.post(env.backendUrl + '/api/register', {
+            await axios.post('register', {
                 first_name: this.first_name,
                 last_name: this.last_name,
                 email: this.email,
