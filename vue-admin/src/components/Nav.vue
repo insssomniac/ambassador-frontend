@@ -16,7 +16,11 @@ import axios from "axios";
 
 export default {
     name: "Nav",
-    props: ['user'],
+    computed: {
+        user() {
+            return this.$store.state.user;
+        }
+    },
     methods: {
         async logout() {
             await axios.post('logout');
