@@ -2,9 +2,10 @@ This is a frontend part for training project using the Laravel backend, Vue JS &
 
 Backend repository of this project is here https://github.com/insssomniac/laravel-ambassador
 
-# vue-admin
+# vue-admin - admin panel
+# vue-ambassador - panel for ambassadors
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
