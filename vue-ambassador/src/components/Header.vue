@@ -1,5 +1,5 @@
 <template>
-    <section class="jumbotron text-center">
+    <section class="text-center">
         <div class="container">
             <h1 class="jumbotron-heading">{{ title }}</h1>
             <p class="lead text-muted">{{ description }}</p>
